@@ -13,7 +13,7 @@ Note: script uses default python v3 library installed on system (#!/usr/bin/pyth
 
 
 ## usage
-positional arguments:
+positional arguments:\n
   matrixFile            Bottom-left (bl) or Top-right (tr) distance matrix
                         with first column being sample identifiers
 
