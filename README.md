@@ -7,8 +7,8 @@ Script to assign hierarchical nomenclature to samples present in a distance matr
 
 cd MatrixCodes/
 
-chmod 777 *```
-
+chmod 777 *
+```
 Note: script uses default python v3 library installed on system (#!/usr/bin/python3)
 
 
