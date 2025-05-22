@@ -7,7 +7,7 @@ git clone https://github.com/ncezid-biome/MatrixCodes.git
 
 cd MatrixCodes/
 
-chmod 777 * \
+chmod 777 *
 
 Note: script uses default python v3 library installed on system (#!/usr/bin/python3)
 
