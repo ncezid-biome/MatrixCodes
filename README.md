@@ -13,25 +13,25 @@ Note: script uses default python v3 library installed on system (#!/usr/bin/pyth
 
 
 ## usage
-<u>positional arguments:</u>
+<ins>positional arguments:</ins>
 
   matrixFile            Bottom-left (bl) or Top-right (tr) distance matrix with first column being sample identifiers
 
-required arguments:
+<ins>required arguments:</ins>
 
   -mt, --matrixType     'bl' or 'tr', corresponding to bottom-left or top-right type of matrix, respectively
                         
   -t, --thresholds      Quoted, comma-separated thresholds in descending order
   
 
-optional arguments:
+<ins>optional arguments:</ins>
 
   -h, --help            show this help message and exit
   
   -v, --verbose         Whether to print excessively or not
   
 
-execution:
+<ins>execution:</ins>
 
 ./MatrixCodes.py -mt bl -t "100, 50, 25, 12, 6" matrix.tsv
 
