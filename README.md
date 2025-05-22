@@ -4,7 +4,9 @@ Script to assign hierarchical nomenclature to samples present in a distance matr
 
 ## Installation
 git clone https://github.com/ncezid-biome/MatrixCodes.git
+
 cd MatrixCodes/
+
 chmod 777 *
 
 Note: script uses default python v3 library installed on system (#!/usr/bin/python3)
@@ -12,20 +14,31 @@ Note: script uses default python v3 library installed on system (#!/usr/bin/pyth
 
 ## usage
 positional arguments:
+
   matrixFile            Bottom-left (bl) or Top-right (tr) distance matrix
+  
                         with first column being sample identifiers
 
 required arguments:
+
   -mt, --matrixType     'bl' or 'tr', corresponding to bottom-left or top-
+  
                         right type of matrix, respectively
+                        
   -t, --thresholds      Quoted, comma-separated thresholds in descending order
+  
 
 optional arguments:
+
   -h, --help            show this help message and exit
+  
   -v, --verbose         Whether to print excessively or not
+  
 
 execution:
+
 ./MatrixCodes.py -mt bl -t "100, 50, 25, 12, 6" matrix.tsv
+
 
 
 ## Example (using ExampleData/BL_matrix_100.tsv)
