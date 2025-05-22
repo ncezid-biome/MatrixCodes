@@ -8,6 +8,7 @@ Note: script uses default python v3 library installed on system (#!/usr/bin/pyth
 
 ## usage
 cd MatrixCodes/
+
 ./MatrixCodes.py -mt bl -t "100, 50, 25, 12, 6" matrix.tsv
 
 ## Example (using ExampleData/BL_matrix_100.tsv)
