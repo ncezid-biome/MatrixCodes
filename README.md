@@ -19,7 +19,7 @@ Note: script uses default python v3 library installed on system (#!/usr/bin/pyth
 
 <ins>required arguments:</ins>
 
-  -mt, --matrixType     'bl' or 'tr', corresponding to bottom-left or top-right type of matrix, respectively
+  -mt, --matrixType    'bl' or 'tr', corresponding to bottom-left or top-right type of matrix, respectively
                         
   -t, --thresholds      Quoted, comma-separated thresholds in descending order
   
